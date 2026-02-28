@@ -1,0 +1,23 @@
+# Python environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pyinstaller specific
+build/
+dist/
+
+# Pytest
+.pytest_cache/
+
+# Databases
+smart_pos.db
+smart_pos.db-shm
+smart_pos.db-wal
+smart_pos_backup_*.db
+
+# Temporary assets
+assets/logo.png
+receipt.pdf
